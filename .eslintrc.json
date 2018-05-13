@@ -9,7 +9,7 @@
     "sourceType": "module",
     "ecmaFeatures": {
       "impliedStrict": true,
-      "jsx": false
+      "jsx": true
     }
   },
   "parser": "babel-eslint",
@@ -29,7 +29,11 @@
       "singleQuote": true,
       "bracketSpacing": true,
       "jsxBracketSameLine": true,
-      "printWidth": 120
+      "printWidth": 120,
+      "tabWidth": 4
+    }],
+    "react/jsx-filename-extension": ["error", {
+      "extensions": [".js", ".jsx"]
     }],
     "no-unused-vars": [ "error", { "argsIgnorePattern": "^_" } ],
     "func-names": ["error", "as-needed"],
